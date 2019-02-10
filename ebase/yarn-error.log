@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Berko Johnson\bin;C:\Users\Berko Johnson\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Berko Johnson\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Yarn\bin;C:\Ruby25-x64\bin;C:\Users\Berko Johnson\AppData\Local\Microsoft\WindowsApps;C:\Users\Berko Johnson\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Berko Johnson\AppData\Local\GitHubDesktop\bin;C:\Users\Berko Johnson\AppData\Roaming\npm;C:\Users\Berko Johnson\AppData\Local\atom\bin;C:\Users\Berko Johnson\AppData\Local\hyper\app-3.0.0-canary5\resources\bin;C:\Users\Berko Johnson\AppData\Local\Yarn\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+
+npm manifest: 
+  {
+    "name": "edenserver",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node app.js",
+      "serve": "nodemon app.js"
+    },
+    "dependencies": {
+      "bulma": "^0.7.4",
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.6.9",
+      "express": "~4.16.0",
+      "http-errors": "~1.6.2",
+      "jsonwebtoken": "^8.4.0",
+      "mongoose": "^5.4.11",
+      "morgan": "~1.9.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
